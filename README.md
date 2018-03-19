@@ -103,7 +103,7 @@ Encoding To Json Examples And Decoding #1
 				["jsonval"]=> NULL 
 				["name"]=> string(5) "hello" 
 				["jsona"]=> object(stdClass)#14 (8) {
-	$first------	["id"]=> NULL 
+	$first------		["id"]=> NULL 
 					["username"]=> string(7) "someone" 
 					["pass"]=> NULL 
 					["user_nick_name"]=> NULL 
