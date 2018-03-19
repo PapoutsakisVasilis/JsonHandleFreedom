@@ -161,9 +161,9 @@ Encoding To Json Examples And Decoding #3
 
 	
 	Will output all the same but the first Class will be Std Class,
-			everything else will be accosiative array,
-		at FrStatic will be stored all the static props,
-		at FrPrivate will be stored all the private props.
+	everything else will be accosiative array,
+	at FrStatic will be stored all the static props,
+	at FrPrivate will be stored all the private props.
 
 
 
@@ -202,11 +202,11 @@ Encoding To Json Examples And Decoding #5
 
 	
 	Will output all the same but the first Class will be Std Class,
-			everything else will be accosiative array,
-		at FrStatic will be stored all the static props,
-		at FrPrivate will be stored all the private props.
+	everything else will be accosiative array,
+	at FrStatic will be stored all the static props,
+	at FrPrivate will be stored all the private props.
 		
-					Encrypt Decrypt Example.
+		Encrypt Decrypt Example.
 
 
 
