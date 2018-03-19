@@ -109,22 +109,22 @@ Encoding To Json Examples And Decoding #1
 					["user_nick_name"]=> NULL 
 					["val"]=> NULL 
 					["jsonval"]=> NULL 
-				["FrStatic"]=> array(2) { 
-					[0]=> object(stdClass)#19 (1) {
-						["table"]=> string(5) "users" } 
-					[1]=> object(stdClass)#16 (1) {
-						["modelName"]=> string(11) "Models\User" } } 
-				["FrPrivate"]=> array(1) {
-					[0]=> object(stdClass)#18 (1) {
-						["prive"]=> string(7) "private" } } } 
-					["FrStatic"]=> array(2) {
-						[0]=> object(stdClass)#13 (1) { 
+					["FrStatic"]=> array(2) { 
+						[0]=> object(stdClass)#19 (1) {
 							["table"]=> string(5) "users" } 
-						[1]=> object(stdClass)#20 (1) {
+						[1]=> object(stdClass)#16 (1) {
 							["modelName"]=> string(11) "Models\User" } } 
-						["FrPrivate"]=> array(1) { 
-							[0]=> object(stdClass)#21 (1) { 
-								["prive"]=> string(7) "private" } } } }
+					["FrPrivate"]=> array(1) {
+						[0]=> object(stdClass)#18 (1) {
+							["prive"]=> string(7) "private" } } } 
+				["FrStatic"]=> array(2) {
+					[0]=> object(stdClass)#13 (1) { 
+						["table"]=> string(5) "users" } 
+					[1]=> object(stdClass)#20 (1) {
+						["modelName"]=> string(11) "Models\User" } } 
+				["FrPrivate"]=> array(1) { 
+					[0]=> object(stdClass)#21 (1) { 
+						["prive"]=> string(7) "private" } } } }
 		
 		}
 
