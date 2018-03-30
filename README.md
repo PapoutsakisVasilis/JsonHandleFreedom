@@ -72,7 +72,7 @@ Encoding To Json Examples And Decoding #1
         $second->pass =[1,2,3,4,5,6,0];
         $second->jsona = $first;
 		
-		$main = new \Models\User();
+	$main = new \Models\User();
         $main->username= 'hello1';
         $main->jsona = $second;
         
@@ -95,7 +95,7 @@ Encoding To Json Examples And Decoding #1
 			["user_nick_name"]=> NULL 
 			["val"]=> NULL ["jsonval"]=> NULL 
 			["jsona"]=> object(stdClass)#17 (10) {
-	$second--- 	["id"]=> NULL 
+	$second--- 		["id"]=> NULL 
 				["username"]=> string(6) "newsss" 
 				["pass"]=> array(7) { [0]=> int(1) [1]=> int(2) [2]=> int(3) [3]=> int(4) [4]=> int(5) [5]=> int(6) [6]=> int(0) } 
 				["user_nick_name"]=> NULL 
@@ -103,7 +103,7 @@ Encoding To Json Examples And Decoding #1
 				["jsonval"]=> NULL 
 				["name"]=> string(5) "hello" 
 				["jsona"]=> object(stdClass)#14 (8) {
-	$first------		["id"]=> NULL 
+	$first------			["id"]=> NULL 
 					["username"]=> string(7) "someone" 
 					["pass"]=> NULL 
 					["user_nick_name"]=> NULL 
@@ -218,13 +218,20 @@ Encoding To Json Examples And Decoding #6
 
 ----------------------------------------------------
 
-
-	//TODO ARRAY
-
+		$jsonVal = $freeJson->encodeJsonMaster($final);
+	
+	If $final is an Array of any possible combinations.
+	after decode: 
+	
+		$results = $freeJson->jsonDecodeToClass($jsonVal, null ,'class');
+		
+	Will return stdClass with a prop ->arrayOfObjs that will contain all data,
+	that was stored to $final but as assosiative array or class depending at the structure of the array($final).
 
 -----------------------------------------------------
 
 
+JsonHandleFreedom Have already used To Laravel App and soon will be available as a package.
 
 
 
