@@ -32,8 +32,11 @@ class JsonEncryption
     public function encryptJson($json)
     {
         $pass = self::$pass;
-        $salt = sha1(mt_rand());
+
+        $passLen = strlen($pass);
+        $salt = substr(sha1(mt_rand()), 0, 31 - $passLen);
         $i = substr(sha1(mt_rand()), 0, 16);
+
 
         $encryptedJson = openssl_encrypt(
             "$json", 'aes-256-cbc', "$salt:$pass", null, $i
